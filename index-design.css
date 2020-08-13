@@ -1,0 +1,75 @@
+
+body{
+  margin: 0;
+  background-color: #E0E0E0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #448AFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.login{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 500px;
+  height: 300px;
+}
+
+.register{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
+
+
+.userInputs{
+  width: 60%;
+  padding: 12px 20px;
+  margin-left: 80px;
+  margin-top: 20px;
+  border: 3px solid #555;
+  color: black;
+}
+
+input[type=submit]{
+  background-color: #448AFF;
+  border: none;
+  color: white;
+  margin-left: 130px;
+  margin-top: 10px;
+  width: 50%;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
